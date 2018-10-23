@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 13px;
+    text-decoration: none;
+    color:#78829d;
+
+    &:hover {
+        color: #fff; 
+        text-decoration: none;
+    }
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    
+}
+
+main {
+    height: 900px;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+@import "_header.scss";
+@import "_sidebar.scss";
+@import "_content.scss";
+@import "_footer.scss";
+@import "_media.scss";
+@import "_burgerMenu.scss";
+
+
+
+

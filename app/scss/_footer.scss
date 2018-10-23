@@ -1,0 +1,33 @@
+.footer {
+    height: 45px;
+    padding: 0px;
+    background-color: #181e2c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.group-btn {
+    display: flex;
+}
+
+.help-btn {
+    width: 55px;
+    height: 45px;
+    background-color: #1f2637;
+    border: 0px;
+
+    .fa-question-circle {
+        color: white;
+    }
+}
+
+.setting-btn {
+    width: 55px;
+    height: 45px;
+    background-color: #15a4fa;
+    border: 0px;
+
+    .fa-cog {
+        color: white;
+    }
+}
